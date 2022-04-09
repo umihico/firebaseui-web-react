@@ -65,7 +65,9 @@ const uiConfig = {
   signInFlow: 'popup',
   // Redirect to /signedIn after sign in is successful. Alternatively you can provide a callbacks.signInSuccess function.
   signInSuccessUrl: '/signedIn',
-  // We will display Google and Facebook as auth providers.
+  // We 
+  
+  l display Google and Facebook as auth providers.
   signInOptions: [
     firebase.auth.GoogleAuthProvider.PROVIDER_ID,
     firebase.auth.FacebookAuthProvider.PROVIDER_ID,
@@ -154,7 +156,7 @@ export default SignInScreen;
 ### Accessing the FirebaseUI instance
 
 To allow for further configuration you can access the firebaseUI instance before it is started.
-To do this you can pass a `uiCallback` callback function that wil be passed the Firebase UI instance. For example here is how to enable the `disableAutoSignIn()` option:
+To do this you can pass a `uiCallback` callback function that will be passed the Firebase UI instance. For example here is how to enable the `disableAutoSignIn()` option:
 
 ```js
 // ...
